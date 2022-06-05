@@ -8,7 +8,7 @@ overloads for different character types with size, like we can see in _S littera
 operator function.
 We can't have signed UDLs, e.g. minus, "-" sign is not allowed in
 'auto t3 = -1.22_tok //compilation error',
-basically we are trying to use udefined unary minus operator for a type Token,
-from an example main.cpp \
+basically we are trying to use undefined unary minus operator for a type Token,
+from an example in main.cpp
 
 

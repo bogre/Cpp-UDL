@@ -3,13 +3,12 @@
 ### Introduction
 With c++20 standard, we can use literals in a various forms shown in main.cpp, with Token
 class, or with suffix _S UDL.
-There are kinds of UDLs:
-#### so-called COOKED UDLs
-#### Raw UDLs
+There are these kinds of UDLs:
+- so-called COOKED UDLs
+- Raw UDLs
+- Numeric UDL templates
+- String template UDLs (since c++20)
 
-#### Numeric UDL templates
-
-#### String template UDLs (since c++20)
 have all in all, at most 12 overloads, for unsigned long long, long double, plus 10
 overloads for different character types with size, like we can see in _S litteral
 operator function.

@@ -4,8 +4,7 @@
 With c++20 standard, we can use literals in a various forms shown in main.cpp, with Token
 class, or with suffix _S UDL.
 There are these kinds of UDLs:
-- [Introduction](#introduction)
-- [COOKED UDLs](###COOKED UDLs)
+- [COOKED UDLs](###COOKED)
 - [Raw UDLs]
 - [Numeric UDL templates]
 - [String template UDLs (since c++20)]
